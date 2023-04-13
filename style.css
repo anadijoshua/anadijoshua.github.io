@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to left, red, rgb(0, 87, 130));
+}
+
+
+.container{
+    width: 100%;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, green, black,  rgb(16, 114, 150));
+    background: linear-gradient(to right, green, black, rgb(16, 114, 150));
+    font-size: 60px;
+    display: flex;
+    justify-content:end;
+
+}
+
+
+
+
+    /* SEARCH LIST_______________________________________________________ */
+
+.setup{
+    background: green;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, green, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    max-width: 30rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 10px ;
+    display: grid; 
+    justify-content: space-around;
+}
+
+.shift input{
+    width: 25em;
+    height: 2rem;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+   
+}
+
+.shift button{
+    margin-top: 10px;
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 10px 20px 10px 20px;
+font-family:'Courier New', Courier, monospace;
+font-size: 20px;
+}
+
+.search_list li{
+        list-style: none;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+
+}
+
+.search_list li a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+} 
+
+
+
